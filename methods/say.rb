@@ -1,7 +1,6 @@
-def some_method(number)
-  number = 7 # this is implicitly returned by the method
+def say(words='Yo-ness')
+  puts words + '.'
 end
-
-a = 5
-some_method(a)
-puts a
+say()
+say('Yes?')
+say('Sayin hi!')
