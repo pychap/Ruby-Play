@@ -68,12 +68,32 @@
 # end
 
 
-def add_three(n)
-  new_value = n + 3
-  puts new_value
-  new_value
-end
+# def has_a_b?(string)
+#   if /b/.match(string)
+#     puts "We have a match!"
+#   else
+#     puts "no match here!"
+#   end
+# end
+#  has_a_b?("foo")
+#  has_a_b?("birthday")
+#  has_a_b?("is going to be 60")
 
-add_three(5)
+# def test(b)
+#   puts b.map! {|letter| "I like the letter: #{letter}"}
+# end
 
+# a = [1, 2, 3, 3]
+# test(a)
+# p a
+
+# talk = Proc.new do
+#   puts "I am rappin foo…"
+# end
+
+# talk.call
+
+contact_data = ["joe@email.com", "123 Main st.", "555-123-4567"]
+contacts = {"Joe Smith" => {}}
+fields = [:email, :address, :phone]
 
