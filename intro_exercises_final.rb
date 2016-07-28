@@ -143,7 +143,7 @@
 # p arr
 
 # ~~~~~~~~ 16
-a = ['white snow', 'winter wonderland', 'melting ice', 'slippery sidewalk', 'salted roads', 'white trees']
+# a = ['white snow', 'winter wonderland', 'melting ice', 'slippery sidewalk', 'salted roads', 'white trees']
 # a.split(' ')
 # puts a
 
@@ -154,11 +154,22 @@ a = ['white snow', 'winter wonderland', 'melting ice', 'slippery sidewalk', 'sal
 # p foo
 
 #  ~~~~~~~~ 17
-hash1 = {shoes: "nike", "hat" => "adidas", :hoodie => true}
-hash2 = {"hat" => "adidas", :shoes => "nike", hoodie: true}
+# hash1 = {shoes: "nike", "hat" => "adidas", :hoodie => true}
+# hash2 = {"hat" => "adidas", :shoes => "nike", hoodie: true}
 
-if hash1 == hash2
-  puts "These hashes are the same!"
-else
-  puts "These hashes are not the same!"
+# if hash1 == hash2
+#   puts "These hashes are the same!"
+# else
+#   puts "These hashes are not the same!"
+# end
+
+
+a_arr = [['white snow', 'a winter wonderland'], ['melting ice', 'slippery sidewalks'], ['salted roads', 'white trees']]
+
+a_arr.each do |cold_reality|
+  w_scene = cold_reality[0]
+  w_result = cold_reality[1]
+
+  sentence = 'There was ' + w_scene + ' and ' + w_result
+  puts sentence
 end
