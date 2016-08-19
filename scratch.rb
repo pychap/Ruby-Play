@@ -93,7 +93,29 @@
 
 # talk.call
 
-contact_data = ["joe@email.com", "123 Main st.", "555-123-4567"]
-contacts = {"Joe Smith" => {}}
-fields = [:email, :address, :phone]
+# contact_data = ["joe@email.com", "123 Main st.", "555-123-4567"]
+# contacts = {"Joe Smith" => {}}
+# fields = [:email, :address, :phone]
 
+class Student
+
+  attr_reader :first_name, :last_name, :grade
+  def initialize(first_name, last_name, grade)
+    @first_name = first_name
+    @last_name = last_name
+    @grade = grade
+  end
+  def to_s
+    "#{last_name}, #{first_name}"
+  end
+end
+
+peter = Student.new("Peter", "Chapman", 26)
+fred = Student.new("Fred", "Jones", 25)
+sarah = Student.new("Sarah", "Gundert", 23)
+
+all_students = [peter, fred, sarah]
+
+all_students.each do |student|
+  puts student
+end
