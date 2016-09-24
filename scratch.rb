@@ -15,7 +15,7 @@
 # def add_three(num)
 #   new_val = num + 3
 #   puts new_val
-#   new_val  
+#   new_val
 # end
 
 # addEmUp = add_three(9)
@@ -112,9 +112,9 @@ end
 
 peter = Student.new("Peter", "Chapman", 26)
 fred = Student.new("Fred", "Jones", 25)
-sarah = Student.new("Sarah", "Gundert", 23)
+sarah = Student.new("Levi", "Gundert", 23)
 
-all_students = [peter, fred, sarah]
+all_students = [peter, fred, levi]
 
 all_students.each do |student|
   puts student
