@@ -15,6 +15,7 @@ The `return` from a function gives the line of code that called the function a r
 * `<=` (less than equal)
 * `true`
 * `false`
+#### &nbsp;
 ### The Truth Tables
 <table>
     <tr>
@@ -95,4 +96,70 @@ The `return` from a function gives the line of code that called the function a r
         <td>not (false || false)</td>
         <td>true</td>
     </tr>
+</table>
+<table>
+    <tr>
+        <td><h5>not And ( && )</h5></td>
+        <td><h5>true?</h5></td>
+    </tr>
+    <tr>
+        <td>!(true && false)</td>
+        <td>true</td>
+    </tr>
+    <tr>
+        <td>!(true && true)</td>
+        <td>false</td>
+    </tr>
+    <tr>
+        <td>!(false && true)</td>
+        <td>true</td>
+    </tr>
+    <tr>
+        <td>!(false && false)</td>
+        <td>true</td>
+    </tr>
+</table>
+<table>
+  <tr>
+    <td><h5>!=</h5></td>
+    <td><h5>true?</h5></td>
+  </tr>
+  <tr>
+    <td>1 != 0</td>
+    <td>true</td>
+  </tr>
+  <tr>
+    <td>1 != 1</td>
+    <td>false</td>
+  </tr>
+  <tr>
+    <td>0 != 1</td>
+    <td>true</td>
+  </tr>
+  <tr>
+    <td>0 != 0</td>
+    <td>false</td>
+  </tr>
+</table>
+<table>
+  <tr>
+  <td><h5> == </h5></td>
+  <td><h5>true?</h5></td>
+  </tr>
+  <tr>
+    <td>1 == 0</td>
+    <td>false</td>
+  </tr>
+  <tr>
+    <td>1 == 1</td>
+    <td>true</td>
+  </tr>
+  <tr>
+    <td>0 == 1</td>
+    <td>false</td>
+  </tr>
+  <tr>
+    <td>0 == 0</td>
+    <td>true</td>
+  </tr>
 </table>
