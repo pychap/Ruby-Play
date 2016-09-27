@@ -1,4 +1,5 @@
 ## Notes for Ruby the hard way
+The trick to remembering all the syntax rules in Ruby is to not remember them -- you need to be able to refresh your memory by experimenting with code.
 
 ### When should I use  `puts` instead of `return` in a function?
 
