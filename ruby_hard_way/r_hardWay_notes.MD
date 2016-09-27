@@ -15,7 +15,7 @@ The `return` from a function gives the line of code that called the function a r
 * `<=` (less than equal)
 * `true`
 * `false`
-#### &nbsp;
+---
 ### The Truth Tables
 <table>
     <tr><td><h5>Not</h5></td><td><h5>true?</h5></td></tr>
