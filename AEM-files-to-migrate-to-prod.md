@@ -9,7 +9,7 @@ AEM CSS file: `css.txt`
   
   
 ### JS  
-Add this...  
+Add this to the footer/bottom of page...  
 `/etc/clientlibs/vuforia-library/main/js/prism.js`  
 
 ## AEM Components altered:  
